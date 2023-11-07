@@ -29,12 +29,14 @@ It's recommended to use a Conda environment to manage project dependencies.
 If you don't have Conda installed, you can download and install Anaconda from https://www.anaconda.com/products/individual.
 
 Create a Conda environment for your project:
+```bash
 conda create --name your_environment_namepython=3.8
 conda activate your_environment_name
 
 3. Install Required Packages
 
 Install the necessary packages using Conda. Create and activate your Conda environment first (if not already done), and then run:
+```bash
 pip install -r requirements.txt
 
 This command will install all the required packages specified in the requirements.txt file into your Conda environment.
