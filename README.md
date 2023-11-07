@@ -22,7 +22,7 @@ Hourly Interstate 94 Westbound traffic volume for MN DoT ATR station 301, roughl
    ```bash
    git clone https://github.com/DanielGhe/Hourly-Minneapolis-St-Paul--MN-traffic-volume.git
    cd Hourly-Minneapolis-St-Paul--MN-traffic-volume
-   ```bash
+   
 
 2. Create a Conda Environment
 
