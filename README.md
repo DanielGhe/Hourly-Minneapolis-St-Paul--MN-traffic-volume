@@ -1,6 +1,3 @@
-# Hourly Minneapolis-St Paul, MN traffic volume
- Hourly Interstate 94 Westbound traffic volume for MN DoT ATR station 301, roughly midway between Minneapolis and St Paul, MN.
-
 # Hourly Minneapolis-St Paul, MN traffic volume.
 
 ## Overview
@@ -22,7 +19,6 @@ Hourly Interstate 94 Westbound traffic volume for MN DoT ATR station 301, roughl
    ```bash
    git clone https://github.com/DanielGhe/Hourly-Minneapolis-St-Paul--MN-traffic-volume.git
    cd Hourly-Minneapolis-St-Paul--MN-traffic-volume
-   
 
 2. Create a Conda Environment
 
@@ -30,8 +26,6 @@ It's recommended to use a Conda environment to manage project dependencies.
 If you don't have Conda installed, you can download and install Anaconda from https://www.anaconda.com/products/individual.
 
 Create a Conda environment for your project:
-
-```bash
 conda create --name your_environment_namepython=3.8
 conda activate your_environment_name
 
@@ -39,7 +33,7 @@ conda activate your_environment_name
 
 Install the necessary packages using Conda. Create and activate your Conda environment first (if not already done), and then run:
 
-```bash
+conda install conda
 pip install -r requirements.txt
 
 This command will install all the required packages specified in the requirements.txt file into your Conda environment.
